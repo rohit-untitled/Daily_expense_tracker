@@ -13,7 +13,7 @@ class ExpenseSummary extends StatelessWidget {
       builder: (context, value, child) => SizedBox(
         height: 200,
         child: MyBarGraph(
-          maxY: 100,
+          maxY: 50,
           sunAmount: 30,
           monAmount: 20,
           tueAmount: 50,
